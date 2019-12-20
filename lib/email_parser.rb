@@ -5,6 +5,8 @@
 
 class EmailParser
   
-  def parse
-  end 
+  def parse(string)
+    email = string 
+    email.uniq
+    end 
 end 
