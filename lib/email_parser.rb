@@ -5,7 +5,7 @@
 
 class EmailAddressParser
    email_addresses = [] 
-  def parse(email)
-   email.uniq
+  def parse(email_addresses)
+   email_addresses.uniq
     end 
 end 
