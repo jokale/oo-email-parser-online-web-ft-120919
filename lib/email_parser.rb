@@ -6,6 +6,8 @@
 class EmailAddressParser
   attr_accessor :email_addresses
   
+  
+def initali
   def parse(email_addresses)
    email_addresses.uniq
     end 
