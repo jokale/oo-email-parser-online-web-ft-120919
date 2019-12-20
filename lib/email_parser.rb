@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-   email = string 
+   email = [] 
   def parse(string)
    
     email.uniq
